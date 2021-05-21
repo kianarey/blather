@@ -19,15 +19,15 @@ Be sure to include all files within same directory before running code. Open up 
 
 `$ make`
 
-First, run a server:
+###### First, run a server:
 
 `$ ./bl_server Server-Name` (e.g. './bl_server Server1')
 
-Open a new Terminal to start a session with new client:
+###### Open a new Terminal to start a session with new client:
 
 `$ ./bl_client Server-Name Client-Name` (e.g. './bl_client Server1 Lisa')
 
-To have a new client join this session, repeat the preceding step by opening up a new Terminal and entering the following:
+###### To have a new client join this session, repeat the preceding step by opening up a new Terminal and entering the following:
 
 `$ ./bl_client Server-Name Client-Name` (e.g. './bl_client Server1 Tony')
 
